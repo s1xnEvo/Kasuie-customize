@@ -48,7 +48,7 @@ body::before {
   opacity: 0.3;
   background-image: url(https://cdn.jsdelivr.net/gh/Austyncleo/Img_picgo@main/notes/course/cute.webp); /* 测试图 */
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto 70%;
   background-attachment: fixed;
 }
 
