@@ -46,10 +46,11 @@ body::before {
   width: 100vw; 
   height: 100vh;
   opacity: 0.3;
-  background-image: url(https://cdn.jsdelivr.net/gh/Austyncleo/Img_picgo@main/notes/course/cute.webp); /* 测试图 */
-  background-repeat: no-repeat;
-  background-size: auto 70%;
-  background-attachment: fixed;
+
+  background-image: url(https://cdn.jsdelivr.net/gh/Austyncleo/Img_picgo@main/notes/course/cute.webp);  
+  background-repeat: repeat;        /* 改成平铺 */
+  background-size: 200px auto;      /* 控制单个tile大小，可以改成100px auto更密集 */
+  background-attachment: fixed;     /* 背景固定不随滚动 */
 }
 
 @media screen and (max-width: 960px) {
