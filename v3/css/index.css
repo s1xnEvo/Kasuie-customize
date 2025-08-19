@@ -40,10 +40,11 @@ body::before {
   height: 100vh;
   background-position: center;
   background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: auto; /* 取消cover */
+  background-repeat: repeat; /* 平铺重复 */
   background-image: url(https://cdn.jsdelivr.net/gh/Austyncleo/Img_picgo@main/notes/course/cute.webp); /* 背景图片，可自行替换 https://kasuie.cc/api/img/bg?size=regular */
-  z-index: 0;
+  z-index: -1; /* 推荐改为-1确保在内容下层 */
+  opacity: 0.3; /* 透明度调节，可选 */
 }
 
 @media screen and (max-width: 960px) {
