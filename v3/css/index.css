@@ -42,7 +42,7 @@ body::before {
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(https://kasuie.cc/api/img/bg?size=regular); /* 背景图片，可自行替换 */
+  background-image: url(https://cdn.jsdelivr.net/gh/Austyncleo/Img_picgo@main/notes/course/cute.webp); /* 背景图片，可自行替换 https://kasuie.cc/api/img/bg?size=regular */
   z-index: 0;
 }
 
