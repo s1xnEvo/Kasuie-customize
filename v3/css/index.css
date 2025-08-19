@@ -47,7 +47,7 @@ body::before {
   bottom: 0;
   left: 0;
 
-  background: url("https://cdn.jsdelivr.net/gh/Austyncleo/Img_picgo@main/notes/course/cute.webp") repeat;
+  background: url("https://cdn.jsdelivr.net/gh/Austyncleo/Img_picgo@main/notes/course/cute.png") repeat;
   background-position: top left;   /* 从左上角开始平铺 */
   background-attachment: fixed;    /* 滚动时背景固定 */
 }
